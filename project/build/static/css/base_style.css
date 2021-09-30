@@ -23,10 +23,10 @@
 }
 
 body {
-  background-color: rgba(23, 50, 91, 1.0);
-  background-image: url('../img/lukas-blazek-f-TWhXOrLiU-unsplash_cropped.jpg');
+  background-color: rgb(56, 29, 29);
+  background-image: url('../img/background.jpg');
   background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   color: black;
   font-family: Verdana, sans-serif;
@@ -209,6 +209,7 @@ nav ul {
  ********/
 footer {
   text-align: center;
+  color: white;
   margin: 1.5rem 0;
 }
 
