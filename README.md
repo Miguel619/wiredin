@@ -1,2 +1,1 @@
-# wiredin
-Personal project
+Personal Project

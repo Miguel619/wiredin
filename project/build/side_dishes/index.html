@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Flask Recipe App</title>
+
+        <!-- Local CSS file for styling the application-->
+        <link rel="stylesheet" href="/static/css/base_style.css">
+
+        <!-- Additional Styling -->
+        
+        
+    </head>
+
+    <body>
+        <header>
+            <h1>Kennedy Family Recipes</h1>
+            <nav>
+                <ul>
+                    <li class="nav__item"><a href="/" class="nav__link">Recipes</a></li>
+                    <li class="nav__item"><a href="/blog/" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="/about/" class="nav__link">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <!-- child template -->
+            
+<div class="recipe-container">
+
+    <div class="card">
+        <a href="/side_dishes/sweet_potatoes/">
+            <img
+              src="/static/img/sweet_potatoes.jpg"
+              alt="Sweet Potatoes"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Sweet Potatoes</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/side_dishes/spanish_rice/">
+            <img
+              src="/static/img/spanish_rice.jpg"
+              alt="Spanish Rice"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Spanish Rice</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/side_dishes/jasmine_rice/">
+            <img
+              src="/static/img/jasmine_rice.jpg"
+              alt="Jasmine Rice"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Jasmine Rice</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+</div>
+
+        </main>
+
+        <footer>
+            <p>Created by Patrick Kennedy (2021)</p>
+        </footer>
+    </body>
+</html>
