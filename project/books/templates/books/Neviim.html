@@ -1,0 +1,285 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="section-title">Former Prophets</h1>
+<div class="recipe-container">
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Joshua') }}">
+            <img
+              src="{{ url_for('static', filename='img/Joshua.jpg') }}"
+              alt="Joshua"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Joshua</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Judges') }}">
+            <img
+              src="{{ url_for('static', filename='img/Judges.jpg') }}"
+              alt="Judges"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Judges</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Samuel') }}">
+            <img
+              src="{{ url_for('static', filename='img/Samuel.jpg') }}"
+              alt="Samuel"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Samuel</h2>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Kings') }}">
+            <img
+              src="{{ url_for('static', filename='img/Kings.jpg') }}"
+              alt="Kings"
+              class="card__image" />
+            <div class="card__body">
+                <h2 class="recipe-title-long">Kings</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    
+
+</div>
+
+<h1 class="section-title">Latter Prophets</h1>
+<div class="recipe-container">
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Isaiah') }}">
+            <img
+              src="{{ url_for('static', filename='img/Isaiah.jpg') }}"
+              alt="Isaiah"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Isaiah</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Jeremiah') }}">
+            <img
+              src="{{ url_for('static', filename='img/Jeremiah.jpg') }}"
+              alt="Jeremiah"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Jeremiah</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Ezekiel') }}">
+            <img
+              src="{{ url_for('static', filename='img/Ezekiel.jpg') }}"
+              alt="Ezekiel"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Ezekiel</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+</div>
+
+<h1 class="section-title">Minor Prophets</h1>
+<div class="recipe-container">
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Hosea') }}">
+            <img
+              src="{{ url_for('static', filename='img/Hosea.jpg') }}"
+              alt="Hosea"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Hosea</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Joel') }}">
+            <img
+              src="{{ url_for('static', filename='img/Joel.jpg') }}"
+              alt="Joel"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Joel</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Amos') }}">
+            <img
+              src="{{ url_for('static', filename='img/Amos.jpg') }}"
+              alt="Amos"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Amos</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Obadiah') }}">
+            <img
+              src="{{ url_for('static', filename='img/Obadiah.jpg') }}"
+              alt="Obadiah"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Obadiah</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Jonah') }}">
+            <img
+              src="{{ url_for('static', filename='img/Jonah.jpg') }}"
+              alt="Jonah"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Jonah</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Micah') }}">
+            <img
+              src="{{ url_for('static', filename='img/Micah.jpg') }}"
+              alt="Micah"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Micah</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Nahum') }}">
+            <img
+              src="{{ url_for('static', filename='img/Nahum.png') }}"
+              alt="Nahum"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Nahum</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Habakkuk') }}">
+            <img
+              src="{{ url_for('static', filename='img/Habakkuk.jpg') }}"
+              alt="Habakkuk"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Habakkuk</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Zephaniah') }}">
+            <img
+              src="{{ url_for('static', filename='img/Zephaniah.jpg') }}"
+              alt="Zephaniah"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Zephaniah</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Haggai') }}">
+            <img
+              src="{{ url_for('static', filename='img/Haggai.jpg') }}"
+              alt="Haggai"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Haggai</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Zechariah') }}">
+            <img
+              src="{{ url_for('static', filename='img/Zechariah.jpg') }}"
+              alt="Zechariah"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Zechariah</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_book', book_name='Malachi') }}">
+            <img
+              src="{{ url_for('static', filename='img/Malachi.jpg') }}"
+              alt="Malachi"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Malachi</h2>
+                <p class="recipe-badge dairy-free-badge">Dairy-Free</p>
+                <p class="recipe-badge soy-free-badge">Soy-Free</p>
+            </div>
+        </a>
+    </div>
+
+</div>
+{% endblock %}

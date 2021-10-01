@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="section-title">Old Testament</h1>
+<div class="recipe-container">
+
+    <div class="card">
+        <a href="{{ url_for('books.torah_books') }}">
+            <img
+              src="{{ url_for('static', filename='img/torah.jpg') }}"
+              alt="Torah"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Torah</h2>
+                <p>5 Books of Moses</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.neviim_books') }}">
+            <img
+              src="{{ url_for('static', filename='img/neviim.jpg') }}"
+              alt="Nevi'im"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Nevi'im</h2>
+                <p>19 Books of the Prophets</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.side_dishes_recipes') }}">
+            <img
+              src="{{ url_for('static', filename='img/Ketuvim.jpg') }}"
+              alt="Side Dishes"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Ketuvim</h2>
+                <p>11 Other Writings</p>
+            </div>
+        </a>
+    </div>
+
+
+</div>
+<h1 class="section-title">New Testament</h1>
+<div class="recipe-container">
+
+
+    <div class="card">
+        <a href="{{ url_for('books.dessert_recipes') }}">
+            <img
+              src="{{ url_for('static', filename='img/gospel.jpg') }}"
+              alt="Gospels"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Gospels</h2>
+                <p>The 4 Gospels</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.smoothies_recipes') }}">
+            <img
+              src="{{ url_for('static', filename='img/acts.jpg') }}"
+              alt="Acts"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Acts of the Apostles</h2>
+                <p>1 Book</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.baked_goods_recipes') }}">
+            <img
+              src="{{ url_for('static', filename='img/Epistle.jpg') }}"
+              alt="Epistle"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Epistle</h2>
+                <p>21 Letters</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.baked_goods_recipes') }}">
+            <img
+              src="{{ url_for('static', filename='img/revelation.jpg') }}"
+              alt="Revelation"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Book of Revelation</h2>
+                <p>Final Book</p>
+            </div>
+        </a>
+    </div>
+
+</div>
+{% endblock %}

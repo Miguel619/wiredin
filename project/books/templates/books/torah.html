@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="section-title">The Torah</h1>
+<div class="recipe-container">
+
+    <div class="card">
+        <a href="{{ url_for('books.torah_book', book_name='Genesis') }}">
+            <img
+              src="{{ url_for('static', filename='img/Genesis.jpg') }}"
+              alt="Genesis"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Genesis</h2>
+                <p class="recipe-badge dairy-free-badge">Bereshit</p>
+                <p class="recipe-badge soy-free-badge">50 Chapters</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.torah_book', book_name='Exodus') }}">
+            <img
+              src="{{ url_for('static', filename='img/Exodus.jpg') }}"
+              alt="Exodus"
+              class="card__image" />
+            <div class="card__body">
+                <h2 class="recipe-title-long">Exodus</h2>
+                <p class="recipe-badge dairy-free-badge">Shemot</p>
+                <p class="recipe-badge soy-free-badge">40 Chapters</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.torah_book', book_name='Leviticus') }}">
+            <img
+              src="{{ url_for('static', filename='img/Leviticus.jpg') }}"
+              alt="Leviticus"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Leviticus</h2>
+                <p class="recipe-badge dairy-free-badge">Wayiqra</p>
+                <p class="recipe-badge soy-free-badge">27 Chapters</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.torah_book', book_name='Numbers') }}">
+            <img
+              src="{{ url_for('static', filename='img/Numbers.jpg') }}"
+              alt="Numbers"
+              class="card__image" />
+            <div class="card__body">
+                <h2 class="recipe-title-long">Numbers</h2>
+                <p class="recipe-badge dairy-free-badge">Bemidbar</p>
+                <p class="recipe-badge soy-free-badge">36 Chapters</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="{{ url_for('books.torah_book', book_name='Deuteronomy') }}">
+            <img
+              src="{{ url_for('static', filename='img/Deuteronomy.jpg') }}"
+              alt="Deuteronomy"
+              class="card__image" />
+            <div class="card__body">
+                <h2>Deuteronomy</h2>
+                <p class="recipe-badge dairy-free-badge">Devarim</p>
+                <p class="recipe-badge soy-free-badge">34 Chapters</p>
+            </div>
+        </a>
+    </div>
+
+
+</div>
+{% endblock %}

@@ -57,6 +57,12 @@ header {
   color: #f1f1f1;
 }
 
+h1.section-title {
+  text-align: center;
+  color: white;
+  margin: 1.5rem 0;
+}
+
 @media screen and (min-width: 800px) {
   header {
     padding: 1rem 2rem;
@@ -226,3 +232,4 @@ footer {
   font-size: 1.15rem;
   margin-bottom: 1em;
 }
+
